@@ -7,6 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,7 +21,9 @@
     <header class="header">
       <div class="container header-container">
         <nav class="nav-menu">
-          <a class="header-logo" href="./index.html">WebStudio </a>
+          <a class="header-logo" href="./index.html"
+            >Web<span class="logo-second-part">Studio </span></a
+          >
           <ul class="menu-header">
             <li class="menu-link">
               <a class="menu-item" href="./index.html">Studio</a>
@@ -45,19 +51,33 @@
     </header>
 
     <main>
-      <section class="section-portfolio">
+      <section class="section section-portfolio">
+        <h1 class="visually-hidden">Portfolio page</h1>
         <div class="container portfolio-wrapper">
-          <div class="filters">
-            <button class="all-btn filter-btn" type="button">All</button>
-            <button class="websites-btn filter-btn" type="button">
-              Web-sites
-            </button>
-            <button class="apps-btn filter-btn" type="button">Apps</button>
-            <button class="design-btn filter-btn" type="button">Design</button>
-            <button class="marketing-btn filter-btn" type="button">
-              Marketing
-            </button>
-          </div>
+          <h2 class="visually-hidden">Portfolio examples</h2>
+          <ul class="filters">
+            <li class="filters-item">
+              <button class="all-btn filter-btn" type="button">All</button>
+            </li>
+            <li class="filters-item">
+              <button class="websites-btn filter-btn" type="button">
+                Web-sites
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="apps-btn filter-btn" type="button">Apps</button>
+            </li>
+            <li class="filters-item">
+              <button class="design-btn filter-btn" type="button">
+                Design
+              </button>
+            </li>
+            <li class="filters-item">
+              <button class="marketing-btn filter-btn" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
 
           <ul class="portfolio-list">
             <li class="portfolio-item">
@@ -69,8 +89,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Technoduck</h3>
-                <p class="portfolio-item-desc">Web-site</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Technoduck</h3>
+                  <p class="portfolio-item-desc">Web-site</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -82,10 +104,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">
-                  Poster New Orlean vs Golden Star
-                </h3>
-                <p class="portfolio-item-desc">Design</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">
+                    Poster New Orlean vs Golden Star
+                  </h3>
+                  <p class="portfolio-item-desc">Design</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -97,8 +121,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Seafood Restaurant</h3>
-                <p class="portfolio-item-desc">Apps</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Seafood Restaurant</h3>
+                  <p class="portfolio-item-desc">Apps</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -110,8 +136,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Project Prime</h3>
-                <p class="portfolio-item-desc">Marketing</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Project Prime</h3>
+                  <p class="portfolio-item-desc">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -123,8 +151,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Project Boxes</h3>
-                <p class="portfolio-item-desc">Apps</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Project Boxes</h3>
+                  <p class="portfolio-item-desc">Apps</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -136,8 +166,12 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Inspiration has no Borders</h3>
-                <p class="portfolio-item-desc">Web-site</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="portfolio-item-desc">Web-site</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -149,8 +183,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Limited Edition</h3>
-                <p class="portfolio-item-desc">Design</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Limited Edition</h3>
+                  <p class="portfolio-item-desc">Design</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -162,8 +198,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Project LAB</h3>
-                <p class="portfolio-item-desc">Marketing</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Project LAB</h3>
+                  <p class="portfolio-item-desc">Marketing</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -175,8 +213,10 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="portfolio-item-name">Growing Business</h3>
-                <p class="portfolio-item-desc">Apps</p>
+                <div class="portfolio-desc-wrapper">
+                  <h3 class="portfolio-item-name">Growing Business</h3>
+                  <p class="portfolio-item-desc">Apps</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -187,7 +227,9 @@
     <footer class="footer">
       <div class="footer-wrapper container">
         <div class="footer-content-items">
-          <a class="footer-logo" href="./index.html">WebStudio </a>
+          <a class="footer-logo" href="./index.html"
+            >Web<span class="ft-logo-second">Studio </span></a
+          >
           <address class="contacts-footer">
             <ul class="footer-address-list">
               <li class="address-footer-item">
