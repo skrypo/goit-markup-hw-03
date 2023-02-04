@@ -105,8 +105,8 @@ button {
 .header-logo {
   display: block;
   margin-right: 97px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo-second-part {
@@ -129,8 +129,8 @@ button {
   color: var(--title-txt-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-item:hover,
@@ -140,8 +140,8 @@ button {
 }
 
 .menu-item:focus,
-.tel-footer:hover,
-.email-footer:hover {
+.tel-footer:focus,
+.email-footer:focus {
   color: var(--btn-color);
 }
 
@@ -150,8 +150,8 @@ button {
 }
 
 .address-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-txt-color);
   font-weight: 500;
   font-size: 14px;
@@ -177,12 +177,8 @@ button {
 .hero-section {
   width: 100%;
   background: var(--bgrnd-hero);
-}
-
-.hero-wrapper {
-  width: 1200px;
-  padding-bottom: 200px;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .cta-title {
@@ -331,11 +327,7 @@ button {
 .footer {
   width: 100%;
   background-color: var(--bgrnd-hero);
-}
-
-.footer-wrapper {
-  width: 1200px;
-  padding-bottom: 60px;
+  padding: 60px 0px;
 }
 
 .footer-content-items {
@@ -343,7 +335,6 @@ button {
 }
 
 .footer-logo {
-  padding-top: 50px;
   margin-bottom: 9px;
   display: block;
 }
@@ -400,7 +391,7 @@ button {
   color: var(--title-txt-color);
   background-color: var(--bgrnd-team);
   border: none;
-  border-radius: 4%;
+  border-radius: 4px;
 }
 
 .filter-btn:hover {
