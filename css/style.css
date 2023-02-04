@@ -250,6 +250,10 @@ button {
 
 /* -------Gallery Section------ */
 
+.gallery {
+  padding-top: 0px;
+}
+
 .gallery-title,
 .team-title {
   letter-spacing: 0.03em;
